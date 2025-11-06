@@ -8,5 +8,5 @@ Build a simple Android app that targets a minimum SDK of Android 13, using Jetpa
 ---------------------------------------------------
 RESULT :
 - The app displays all Apache CI jobs in a scrollable list, with accommpanying text and a colored circle that signifies their status
-- The app plays a sound if any job status changes to red (this was tested manually (because the listed jobs did not change status in over a month) by adding buttons that change the status of an individual job to red - final version of the app has the buttons disabled; see bottom of MainActivity.kt)
+- The app plays a sound if any job status changes to red (this was tested manually (because the listed jobs did not change status in days) by adding buttons that change the status of an individual job to red - final version of the app has the buttons disabled; see bottom of MainActivity.kt)
 - The API is polled every 30 seconds (which refreshes the page)
