@@ -7,6 +7,6 @@ Build a simple Android
 4. Polls the API every 30 seconds for changes.
 ---------------------------------------------------
 RESULT :
-The app displays all Apache CI jobs in a scrollable list, with accommpanying text and a colored circle that signifies their status
-The app plays a sound if any status job changes to red (this was tested manually by adding buttons that manually change the status of an individual job to red - final version of the app has the buttons disabled; see bottom of MainActivity.kt).
-The API is polled every 30 seconds (which refreshes the page)
+- The app displays all Apache CI jobs in a scrollable list, with accommpanying text and a colored circle that signifies their status
+- The app plays a sound if any status job changes to red (this was tested manually by adding buttons that manually change the status of an individual job to red - final version of the app has the buttons disabled; see bottom of MainActivity.kt).
+- The API is polled every 30 seconds (which refreshes the page)
